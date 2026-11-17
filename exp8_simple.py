@@ -11,7 +11,7 @@ df = pd.read_csv("fashion-mnist_train.csv")
 X = df.drop('label', axis=1)
 y = df['label']
 
-# 1. Load data (Keras) - use instead of CSV if needed
+# 1. Load data (Keras) - ONLY if TensorFlow is installed
 # from tensorflow.keras.datasets import fashion_mnist
 # (X, y), _ = fashion_mnist.load_data()
 # X = X.reshape(len(X), 784)            # flatten 28x28 -> 784

@@ -14,7 +14,7 @@ classes = ['T-shirt', 'Trouser', 'Pullover', 'Dress', 'Coat',
            'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
 # ---------------- STEP 1: LOAD DATA (keep ONE option, comment the others) ----------------
-# OPTION A: from TensorFlow / Keras (downloads once, needs internet the first time)
+# OPTION A: from TensorFlow / Keras (ONLY if TensorFlow is installed; needs internet the first time)
 # from tensorflow.keras.datasets import fashion_mnist
 # (X, y), _ = fashion_mnist.load_data()
 # X = X.reshape(len(X), -1)        # flatten 28x28 -> 784
